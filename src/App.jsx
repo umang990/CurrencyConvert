@@ -13,7 +13,7 @@ const swap=(e)=>{e.preventDefault();setFrom(to);setTo(from);setConvertedAmount(a
 const convert=()=>{setConvertedAmount(amount*currencyInfo[to])}
   return (
     <div className=" bg-[url('https://img.freepik.com/free-photo/top-view-bitcoin-dollar-bills_23-2148285338.jpg?ga=GA1.1.1826489200.1724339438&semt=ais_hybrid&w=740')] min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 via-purple-100 to-pink-100 px-4">
-      <form    className="relative bg-gradient-to-r from-violet-300 via-green-300 to-blue-300 rounded-3xl shadow-2xl p-6 sm:p-8 w-100 h-120 max-w-lg sm:max-w-2xl">
+      <form    className="relative bg-gradient-to-r from-pink-100 via-blue-100 to-pink-100 rounded-3xl shadow-2xl p-6 sm:p-8 w-100 h-120 max-w-lg sm:max-w-2xl">
         
        
         <div 
